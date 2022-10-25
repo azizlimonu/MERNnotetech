@@ -1,0 +1,23 @@
+20221020	11:48:52	a77d474b-ee05-4382-bdce-c1a502dd49c0	ReferenceError: P is not defined	OPTIONS	/	https://www.google.com
+20221020	11:48:52	10a8951c-bd0e-4991-9ea8-f485df2c684c	ReferenceError: P is not defined	GET	/	https://www.google.com
+20221020	11:58:17	b10fdae9-7b4e-4c63-a45b-9b05703f3eea	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20221020	11:58:17	f0c66b81-04d8-4b77-9e49-d2991a5d4dec	Error: Not allowed by CORS	GET	/	https://www.google.com
+20221021	06:22:45	1359b93a-0c5c-4ff9-b48f-05b1f4aa518a	SyntaxError: Unexpected token } in JSON at position 55	POST	/users	undefined
+20221021	06:26:08	c1ffcdf9-e9d6-4c38-939c-a60c09d9bb4d	SyntaxError: Unexpected token ] in JSON at position 184	PATCH	/users	undefined
+20221021	06:29:05	02e36827-b99f-4396-8f01-9751c0385d41	SyntaxError: Unexpected token ] in JSON at position 184	PATCH	/users	undefined
+20221021	16:18:30	c2698be3-f063-44f0-88b7-70634d32b5ec	SyntaxError: Unexpected token " in JSON at position 0	GET	/users	undefined
+20221021	16:20:23	6dc719e6-1043-42fb-bd5a-123d8f9c280c	SyntaxError: Unexpected token } in JSON at position 178	PATCH	/users	undefined
+20221021	16:23:06	05fa4ccf-6367-4f3d-81e0-eec352d548f6	SyntaxError: Unexpected token ] in JSON at position 120	PATCH	/users	undefined
+20221021	17:06:00	452230b8-c872-4d9b-b0f9-22318152490e	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "aziz" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+20221021	17:06:26	9cead50a-b4cf-4a37-8d82-870e49e8e598	SyntaxError: Unexpected token a in JSON at position 15	POST	/notes	undefined
+20221021	17:06:39	4f1943ce-a129-4d1d-8c9a-914bb317e72f	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "dave" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+20221021	17:08:37	985d15a8-2b5a-4231-9ae3-e03ad084c3cc	SyntaxError: Unexpected token : in JSON at position 29	GET	/users	undefined
+20221021	17:08:45	25db5374-aa8e-4d8e-bdb5-d18cb1464763	SyntaxError: Unexpected token : in JSON at position 29	GET	/user	undefined
+20221021	17:10:42	6880bc7c-2eb4-4551-887a-17e91295c920	SyntaxError: Unexpected token " in JSON at position 0	POST	/notes	undefined
+20221021	17:11:00	d28003b2-0af5-4541-af77-0431aa21c275	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "{
+  id: '6351c978725bcc2a514a2857',
+  username: 'hank',
+  roles: [ 'Employee' ],
+  active: true,
+  __v: 0
+}" (type Object) at path "user" because of "BSONTypeError"	POST	/notes	undefined
